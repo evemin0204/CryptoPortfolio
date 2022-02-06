@@ -18,7 +18,6 @@ Zuerst müss man das Backend und danach Frontend bauen.
 ### Backend
 
 1. Führen Sie zuerst `npm install` aus, um die Abhängigkeiten zu installieren.
-2. Führen Sie danach `npm build` aus, um das Backend zu erstellen.
 
 ### Frontend 
 
