@@ -30,7 +30,7 @@ Zuerst müss man das Backend und danach Frontend bauen.
 
 1. Führen Sie die lokale MongoDb-Instanz aus und rufen Sie die db-url ab (z. B. mongodb://localhost:27017/cryptoPortfolio).
 2. Aktualisieren Sie `mongoURI` (Datenbank-URL) in `config/database.ts`.
-3. `npm start` führt den Backend-Dienst aus. Es wird von `http://localhost:8000` aus zugänglich sein
+3. `npm start` führt den Backend-Service aus. Es wird von `http://localhost:8000` aus zugänglich sein
 
 ### Frontend
 
