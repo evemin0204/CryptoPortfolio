@@ -1,0 +1,32 @@
+<main>
+    <div class="box-1">
+        <p>INITIAL INVESTMENT</p>
+        <h5>$ {{ totalInvestment | number : '1.2-2' }}</h5>
+    </div>
+    <div class="box-2">
+        <p>BALANCE DETAILS</p>
+        <h1>${{ totalBalance | number : '1.2-2' }}</h1>
+    </div>
+    <div class="box-3">
+        <p>PROFIT </p>
+        <div class="arrow">
+            <span class="bi" [ngClass]="isEarn ? 'bi-arrow-up' : 'bi-arrow-down'"></span>
+            <h5 [ngClass]="isEarn ? 'green' : 'red'">{{ totalPnl | number : '1.2-2'}}%</h5>
+        </div>
+    </div>
+    <!-- <div class="box1">
+        <div>
+            <p>BALANCE DETAILS</p>
+        </div>
+    </div>
+    <div class="box2">
+        <div>
+            <h1>$14444</h1>
+        </div>
+        <div class="arrow">
+            <span class="bi bi-arrow-up"></span>
+            <p>15%</p>
+        </div>
+
+    </div> -->
+</main>

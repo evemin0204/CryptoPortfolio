@@ -1,0 +1,84 @@
+
+@import url('../../../../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+
+main {
+  background-color: white;
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 200px;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+    
+    
+    
+}
+
+.box-1 {
+  margin-left: 40px;
+}
+
+
+
+.box-3 {
+  margin-right: 40px;
+}
+
+p {
+  font-size: x-small;
+  color: gray;
+  
+}
+
+h5 {
+  color: darkgray;
+  
+}
+
+
+/* .box1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box1 div {
+    width: 150px;
+    height: 20px;
+    margin-top: 30px;
+  }
+
+  .box2 {
+    display: flex;
+    justify-content: center;
+  } */
+
+  .arrow {
+   display: inline-block;
+  }
+
+
+
+
+.bi-arrow-up {
+    color: green;
+    display: inline-block;
+}
+
+.bi-arrow-down {
+  color: red;
+  display: inline-block;
+}
+
+
+
+.green {
+  color: green;
+  
+  display: inline-block;
+}
+
+.red {
+  color: red;
+  display: inline-block;
+}
