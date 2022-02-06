@@ -13,7 +13,7 @@ Das Frontend wird mit Angular (13.0.3), Bootstrap (5.1.3), Node entwickelt.
 
 ## Build
 
-Zuerst müss man das Backend und danach Frontend bauen. 
+Zuerst muss man das Backend und danach Frontend bauen. 
 
 ### Backend
 
